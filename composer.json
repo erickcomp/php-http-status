@@ -1,0 +1,20 @@
+{
+    "name": "erickcomp/http-status",
+    "description": "This package provides 2 classes with the HTTP status codes and its reason phrases mapped as class constants: Status provides the official status codes and UnnoffcialStatus provides all official one plus some unnoficials",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erick de Azevedo Lima",
+            "email": "ericklima.comp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+
+    },
+    "autoload" : {
+        "psr-4": {
+            "erickcomp\\Http\\": "src/"
+        }
+    }
+}
